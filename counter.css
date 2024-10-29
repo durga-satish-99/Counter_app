@@ -1,0 +1,20 @@
+* {
+    background-color: beige;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+}
+button{
+    border-radius: 7px;
+    width: 100px;
+}
+button:hover{
+    background-color: rgb(51, 103, 193);
+    font-weight: bold;
+}
